@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-     - name: GIPHY Generator
+     - name: GIPHY generator
        uses: IAmHughes/giphy-generator@v1.0.0
        env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
